@@ -1,0 +1,149 @@
+@charset "UTF-8";
+/*全局*/
+html,body{margin: 0px;padding: 0px;}
+a{text-decoration:none;outline: none;}
+ul li{list-style-type: none}
+img{border: 0px}
+/*标题LOGN部分*/
+.ensemble{width:1000px;height: 860px;border: 1px solid gray;margin: 0 auto }
+.title{width: 100%;height: 100px;background:url("../img/lnqq_bg.jpg") no-repeat}
+.title .top_label{width:400px;height: 20px;display: inline-block;float: left;
+margin-top: 75px;margin-left: -160px;color: grey;font-size: 14px;line-height: 20px;}
+.title .log{width: 169px;height: 50px;cursor: pointer;margin-left: 50px;
+margin-top: 5px;float: left}
+.title #userPicImg{float: left;margin-top: 66px;margin-left: -208px;}
+.title #userPicImg img{padding: 1px;border: 1px solid goldenrod}
+.caoZuo{width: 1000px;height: 585px;}/*操作主题*/
+/*导航栏*/
+.navigation{width: 100%;height: 40px;background: url("../img/bg.png") repeat-x;margin-top: 5px;}
+.navigation ul li{width: 100px;height: 40px;float: left;background-color: #2378C9;font-size: 20px;
+font-weight: bold;cursor: pointer;text-align: center;line-height: 40px;}
+.navigation ul li:hover{background-color: coral}
+.navigation ul li a{color: white}
+/*尾部*/
+.footer{width: 100%;height: 130px;float: left}
+.footer .footerDao{width: 100%;height: 20px;background: url("../img/bg.png") repeat-x;float: left}
+.footer .footerDao ul{height: 20px;float: left;margin-left: 180px;margin-top:0px}
+.footer .footerDao ul li{width: 90px;height: 20px;line-height:20px;float: left;text-align: center;
+    color: white;cursor: pointer;font-size: 13px;}
+.footer .footerImg{width: 660px;height: 52px;margin-left: 180px;margin-top: 27px;float: left}
+.footer .footerImg img{cursor: pointer}
+/*首页*/
+.index{width: 100%;height: 570px;margin-top: 10px;float: left;}
+.index .huaTi{ width: 920px;height: 560px;margin-left: 40px;}
+.index .huaTi h3{text-align: center;width: 100%;height: 30px;background-color: #666666;float: left;
+margin-top: 0px;line-height: 30px;color: white;cursor: pointer;}
+.index .huaTi .indexLeft{
+    width: 300px;
+    height: 100%;
+    border: 1px solid lightslategrey;float: left;
+}
+.index .huaTi .indexcontent{
+    width: 300px;
+    height: 100%;
+    border: 1px solid lightslategrey;float: left;margin-left: 5px;
+}
+.index .huaTi .indexright{
+    width: 300px;
+    height: 100%;
+    border: 1px solid lightslategrey;float: left;margin-left: 5px;
+}
+/*用户中心*/
+#userDatum{width: 400px;margin-top: 70px;margin-left: 100px;float: left}
+#userDatum tr td{height: 40px;}
+#userDatum input{width: 250px;}
+/*头像*/
+.userPic{width:350px;height: 200px;margin-left: 20px;margin-top:130px;float: left }
+.userPic .userPicTitle{width: 100%;height: 30px;font-size: 20px;font-weight: bold;color: dimgrey;text-align: center;line-height: 30px;}
+#userPicImgUp{width: 130px;height: 130px;margin-left: 110px;}
+#userPicImgUp img{padding: 2px;border: 1px solid dimgrey}
+.userPic .imgList{width: 100%;height: 30px;margin-top: 10px;}
+.userPic .imgList .picInput{margin-left: 30px;}
+/*关于我们*/
+.about .liuChen{width: 800px;height: 100%;margin-left: 50px;float: left}
+.about .liuChen .liuChenList{width: 100%;height: 30px;margin-top: 10px;font-size: 25px;font-weight: bold;text-align: center;line-height: 30px}
+.about .liuChen img{margin-top: 10px;float: left}
+/*管理中心*/
+.manageDiv .leftManageDiv{width: 180px;height: 100%;border-right: 1px solid gray;float: left}
+.manageDiv .leftManageDiv ul{width: 150px;float: left;padding: 0px;margin-left: 15px}
+.manageDiv .leftManageDiv ul li{background-color: #2378C9;width: 150px;height: 30px;margin-top: 8px;float: left;color: white;
+font-size: 25px;font-weight: bold;cursor: pointer;text-align: center;line-height: 30px}
+.manageDiv .leftManageDiv ul li:hover{background-color:coral }
+#manage,.userLunManage{width: 700px;height: 100%;margin-left: 10px;float: left}
+#manage .userManage{display: none}
+#manage .userM,#manage .lunM,.userLunManage .userLunM{margin-top: 3px;font-size: 25px;text-align: center}
+#manage .userL,#manage .lunL,.userLunManage .userLunL{width: 100%;height: 420px;float: left;margin-top: -20px;padding: 0px}
+#manage .userL table,#manage .lunL table,.userLunManage .userLunL table{width: 700px;height:auto;float: left;}
+#manage .userManage .userL .table tr td,#manage .lunManage .lunL .table tr td,.userLunManage .userLunL table tr td{height: 30px;text-align: center}
+#manage .lunManage .lunL .table tr td span,.userLunManage .userLunL table tr td span,#manage .userManage .userL .table tr td .quanXian a{cursor: pointer}
+#manage .lunManage .lunL .table tr td span:hover,.userLunManage .userLunL table tr td span:hover,#manage .userManage .userL .table tr td .quanXian a:hover{color: red}
+.quanTitle{width: 600px;height: 30px;background-color: #808080;float: left;margin-left: 200px;margin-top: 30px;
+text-align: center;line-height: 30px;font-size: 20px;font-weight: bold;color: white}
+.quanxian{width: 600px;height: 200px;float: left;margin-left: 200px;margin-top: 5px;border: 1px solid darkgray}
+/*我要留言*/
+.right_box{width: 620px;margin-left: 190px;margin-top: 60px;float: left}
+
+/*用户发布*/
+.content{width: 1000px;height: 100%;position: relative}
+.content .userMessage,.content .showMessage{width: 900px;height: 240px;margin-top: 10px;margin-left: 50px;float: left;border: 1px solid darkgrey}
+.content .userMessage table tr .td{text-align: center}
+.content .showMessage{height:220px;margin-top: 5px }
+.content .showMessage ul{width: 820px;height: 200px;float: left;margin-top: 0px;margin-left: 20px;}
+.content .showMessage #filePag{width: 400px;height: 20px;float: left;margin-top: -17px;margin-left: 280px;text-align: center}
+.content .userHui{width: 400px;height: 80px;float: left;margin-top: 5px;margin-left: 250px}
+#zhe{width: 400px;height: 80px;background-color: white;position: absolute;left: 200px;top:500px;
+    filter: alpha(opacity=10);opacity: 0.1;display: none}
+/*客服部分*/
+#keFu{ position:absolute; left:30px; top:120px; width:149px; text-align:left; z-index:5;}
+#keFu span { display:block; margin:0; padding:0; padding-bottom:5px; font-size:12px;cursor: pointer}
+#keFu img { margin:0px; padding:0px; border:0px;}
+#keFu span:hover { color:#990000;}
+#keFu .close { background:#FFFFFF;width:30px; text-align:center;  height:14px; padding:0px;}
+#keFu .floatbox { position:relative;}
+#keFu .floatbox .new { position:absolute; right:30px; bottom:154px;}
+#keFu .floatbox .hot { position:absolute; right:15px; top:110px;}
+
+
+/*登陆和注册样式*/
+/*注册与登录*/
+.login_logon_insulate{ display:none;position: absolute;top:0px;left:0px;position:fixed;top:0px;left:0px;width:100%;height:100%;z-index: 40}
+.bgColorBox{position:relative;width:100%;height:100%;background:url('../img/gray.png') repeat; z-index: 35;}
+/*登录模块*/
+.login_insulate{ display:none;position:absolute;width:460px;height:398px;top:50%;left:50%;margin-top:-199px;margin-left:-230px;background:white;border-radius: 5px;z-index: 80;}
+.login_insulate .login_content{float:left;margin-left:45px;margin-top:45px;_margin-left:25px;width:300px;height:320px;}
+.login_insulate table{margin-left: 120px;margin-top: 100px}
+.login_insulate table input{width: 150px;color: grey}
+.login_insulate table .go_login_btn{margin-left: 60px}
+.go_login_btn{margin-top:25px;width:100px;height:39px;border:none;background:url('../img/login_bg.png') no-repeat left;background-position: -15px -15px;}
+.go_login_btn:hover{background-position: -123px -15px;}
+table tr td{color: grey}
+.login_logon_Box_hidden{position:absolute;top:0px;left:100%;margin-left:-80px;width:80px;height:80px;background:url('../img/exit_1.gif') no-repeat center;z-index: 80; cursor: pointer;}
+.login_logon_Box_hidden:hover{background:url('../img/exit_2.gif') no-repeat center;}
+/*注册模块*/
+.logon_content{display:none;position:absolute;width:1000px;height:430px;top:50%;left:50%;background:white;margin-left:-500px;border-radius:3px;margin-top:-215px;z-index: 40;}
+.go_loginBox{float:right;width:258px;height:100%;}
+.go_login_content{width:100%;height:265px;margin-top:70px;border-left:1px solid #CCCCCC;}
+.go_login_content ul{float:left;margin-left:75px;_margin-left:33px;margin-top:35px;width:102px;height:200px;}
+.logon_no_qualification{font-size:17px;color:#4F6B21;font-weight: bold;}
+.application_logon_qualification{margin-top:25px;width:100px;height:35px;background:url('../img/apply_account.png') no-repeat left;border:none;}
+.application_logon_qualification:hover{background-position: -115px 0px;}
+.loginTextTitle{margin-top:25px;}
+.go_login_btns{margin-top:25px;width:100px;height:39px;border:none;background:url('../img/login_bg.png') no-repeat left;background-position: -15px -15px;}
+.go_login_btns:hover{background-position: -123px -15px;}
+
+/*注册信息收集模块*/
+.logonBox{float:left;margin-top:15px;width:600px;height:380px;margin-left: 70px}
+.logonBox table{width:600px;height: 290px;margin-left: 50px;;margin-top:20px;float: left;}
+.logonBox table tr td{font-size: 13px;height: 25px;}
+.logonBox table tr td .subs{margin-left: 150px}
+.logonBox table tr .td{width: 60px;}.registers table tr .tds{width: 100px;}
+.input{width: 200px;margin-left: 10px}
+span{font-size: 13px;}
+.registers table tr .tdss{width: 300px;}
+.right{color:green}.wrong{color: red}
+.logonBox table tr .tdss .qiangdu{width: 200px;height: 20px;margin-left:20px;float: left;display: none}
+.logonBox table tr .tdss .qiangdu p{width: 50px;height: 20px;background-color:  #666666;margin-left: 5px;
+    font-size: 13px;text-align: center;line-height: 20px;float: left;margin-top: 0px}
+.logonBox table tr td .subs{margin-left: 260px;width: 150px;}
+.logonButton{float:left;margin-left:120px;margin-top:10px;width:100px;height:39px;border:none;background:url('../img/login_bg.png') no-repeat left;background-position: -15px -103px;}
+.logonButton:hover{background-position: -123px -103px;}

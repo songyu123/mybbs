@@ -1,0 +1,616 @@
+[ 2014-03-25T23:49:59+08:00 ] 127.0.0.1 /mybbs/index.php/Home/Index/yzm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-03-25T23:50:17+08:00 ] 127.0.0.1 /mybbs/index.php/Home/User/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000000s ]
+SQL: SELECT `uname`,`upwd`,`sname`,`upic`,`uemail`,`uphone`,`uqq` FROM `user` WHERE ( uname='ssssss' )  [ RunTime:0.010000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-03-25T23:50:18+08:00 ] 127.0.0.1 /mybbs/index.php/Home/Index/yzm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-03-25T23:50:20+08:00 ] 127.0.0.1 /mybbs/index.php/Home/liuyan/liuyan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-03-25T23:50:20+08:00 ] 127.0.0.1 /mybbs/index.php/Home/Index/yzm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-03-25T23:50:21+08:00 ] 127.0.0.1 /mybbs/index.php/Home/About/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-03-25T23:50:21+08:00 ] 127.0.0.1 /mybbs/index.php/Home/Index/yzm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-03-25T23:50:22+08:00 ] 127.0.0.1 /mybbs/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.010000s ]
+SQL: SELECT `mbid`,`mbtitle`,`mbdate` FROM `message` WHERE ( mdelete=1 ) ORDER BY mbid desc LIMIT 20   [ RunTime:0.000000s ]
+SQL: SELECT `mbid`,`mbtitle`,`mbdate` FROM `message` WHERE ( mdelete=1 and mcount>=20 ) LIMIT 20   [ RunTime:0.000000s ]
+SQL: SELECT `mbid`,`mbtitle`,`mbdate` FROM `message` WHERE ( mdelete=1 and mbtype=1 ) LIMIT 20   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-03-25T23:50:22+08:00 ] 127.0.0.1 /mybbs/index.php/Home/Index/yzm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-03-25T23:50:25+08:00 ] 127.0.0.1 /mybbs/index.php/Home/Show/showManage.html?mbid=32
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user_message` [ RunTime:0.000000s ]
+ERR: 1146:Table 'bbs.user_message' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user_message`
+SQL: SHOW COLUMNS FROM user,message [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'message' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM user,message
+SQL: SELECT user.upic,user.sname,message.mbip,message.mbdate,message.mbtitle,message.mbcontent FROM `user`,`message` WHERE ( message.mbid=32 and user.uid=message.uid )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM message,user [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'user' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM message,user
+SQL: SELECT user.sname,user.upic FROM `message`,`user` WHERE ( message.mbid=32 and user.uid=message.uid )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user_messages` [ RunTime:0.000000s ]
+ERR: 1146:Table 'bbs.user_messages' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `user_messages`
+SQL: SHOW COLUMNS FROM user,messages [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'messages' at line 1
+ [ SQL语句 ] : SHOW COLUMNS FROM user,messages
+SQL: SELECT user.sname,messages.hcontent,messages.htime,user.upic FROM `user`,`messages` WHERE ( messages.mbid=32 and user.uid=messages.uid )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-03-25T23:50:25+08:00 ] 127.0.0.1 /mybbs/index.php/Home/Index/yzm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-03-25T23:50:26+08:00 ] 127.0.0.1 /mybbs/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.000000s ]
+SQL: SELECT `mbid`,`mbtitle`,`mbdate` FROM `message` WHERE ( mdelete=1 ) ORDER BY mbid desc LIMIT 20   [ RunTime:0.000000s ]
+SQL: SELECT `mbid`,`mbtitle`,`mbdate` FROM `message` WHERE ( mdelete=1 and mcount>=20 ) LIMIT 20   [ RunTime:0.000000s ]
+SQL: SELECT `mbid`,`mbtitle`,`mbdate` FROM `message` WHERE ( mdelete=1 and mbtype=1 ) LIMIT 20   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-03-25T23:50:26+08:00 ] 127.0.0.1 /mybbs/index.php/Home/Index/yzm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-03-25T23:50:27+08:00 ] 127.0.0.1 /mybbs/index.php/Home/Manage/manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.000000s ]
+SQL: SELECT `mbid`,`mbtitle`,`mbdate`,`mbip` FROM `message` WHERE ( mdelete=1 and uid=2 )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-03-25T23:50:27+08:00 ] 127.0.0.1 /mybbs/index.php/Home/Index/yzm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2014-03-25T23:50:29+08:00 ] 127.0.0.1 /mybbs/index.php/Home/Manage/recycle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.020000s ]
+SQL: SELECT `mbid`,`mbtitle`,`mbdate`,`mbip` FROM `message` WHERE ( mdelete=0 and uid=2 )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2014-03-25T23:50:29+08:00 ] 127.0.0.1 /mybbs/index.php/Home/Index/yzm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-03-25T23:54:14+08:00 ] 127.0.0.1 /mybbs/index.php/Home/Manage/manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.005000s ]
+SQL: SELECT `mbid`,`mbtitle`,`mbdate`,`mbip` FROM `message` WHERE ( mdelete=1 and uid=2 )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-03-25T23:54:15+08:00 ] 127.0.0.1 /mybbs/index.php/Home/Index/yzm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-03-25T23:54:17+08:00 ] 127.0.0.1 /mybbs/index.php/Home/Manage/recycle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.004000s ]
+SQL: SELECT `mbid`,`mbtitle`,`mbdate`,`mbip` FROM `message` WHERE ( mdelete=0 and uid=2 )  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-03-25T23:54:17+08:00 ] 127.0.0.1 /mybbs/index.php/Home/Index/yzm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-03-25T23:54:18+08:00 ] 127.0.0.1 /mybbs/index.php/Home/Manage/manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.005000s ]
+SQL: SELECT `mbid`,`mbtitle`,`mbdate`,`mbip` FROM `message` WHERE ( mdelete=1 and uid=2 )  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-03-25T23:54:18+08:00 ] 127.0.0.1 /mybbs/index.php/Home/Index/yzm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-03-25T23:54:20+08:00 ] 127.0.0.1 /mybbs/index.php/Home/Manage/updateMessage.html?mbid=27
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.004000s ]
+SQL: UPDATE `message` SET `mdelete`=0 WHERE ( mbid=27 ) [ RunTime:0.000000s ]
+
+[ 2014-03-25T23:54:20+08:00 ] 127.0.0.1 /mybbs/index.php/Home/Manage/updateMessage.html?mbid=27
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.005000s ]
+SQL: UPDATE `message` SET `mdelete`=0 WHERE ( mbid=27 ) [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-03-25T23:54:22+08:00 ] 127.0.0.1 /mybbs/index.php/Home/Manage/recycle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.004000s ]
+SQL: SELECT `mbid`,`mbtitle`,`mbdate`,`mbip` FROM `message` WHERE ( mdelete=0 and uid=2 )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-03-25T23:54:23+08:00 ] 127.0.0.1 /mybbs/index.php/Home/Index/yzm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-03-25T23:54:24+08:00 ] 127.0.0.1 /mybbs/index.php/Home/Manage/delMessage.html?mbid=27
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.004000s ]
+SQL: DELETE FROM `messages` WHERE ( mbid=27 ) [ RunTime:0.011001s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.004000s ]
+SQL: DELETE FROM `message` WHERE ( mbid=27 ) [ RunTime:0.033002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-03-25T23:54:24+08:00 ] 127.0.0.1 /mybbs/index.php/Home/Manage/delMessage.html?mbid=27
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `messages` [ RunTime:0.006000s ]
+SQL: DELETE FROM `messages` WHERE ( mbid=27 ) [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.004000s ]
+SQL: DELETE FROM `message` WHERE ( mbid=27 ) [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-03-25T23:54:28+08:00 ] 127.0.0.1 /mybbs/index.php/Home/Manage/manage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.004000s ]
+SQL: SELECT `mbid`,`mbtitle`,`mbdate`,`mbip` FROM `message` WHERE ( mdelete=1 and uid=2 )  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-03-25T23:54:29+08:00 ] 127.0.0.1 /mybbs/index.php/Home/Index/yzm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-03-25T23:54:29+08:00 ] 127.0.0.1 /mybbs/index.php/Home/Manage/recycle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.004000s ]
+SQL: SELECT `mbid`,`mbtitle`,`mbdate`,`mbip` FROM `message` WHERE ( mdelete=0 and uid=2 )  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\mybbs\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php 第 495 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-03-25T23:54:29+08:00 ] 127.0.0.1 /mybbs/index.php/Home/Index/yzm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

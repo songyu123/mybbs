@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<extend name="layout/layout" />
+<html>
+<head>
+    <block name='title'><title>用户留言</title></block>
+</head>
+<body>
+<block name="main">
+    <div class="caoZuo">
+        <import file="editor/kindeditor-min" />
+        <import file="editor/lang/zh_CN" />
+        <div class="right_box">
+            <form action="{:U('Liuyan/addLiuYan')}" method="post" name="sendMsgForm">
+                <p>发布主题: <input  type="text" size="60" name="subjectTitle" /></p>
+                <p>主题内容:</p>
+                <textarea id="contentqq" name="content" style="width:600px;height:200px;visibility:hidden;"></textarea>
+                <p><input type="submit" name="sendSubject" value="确定发布" /></p>
+            </form>
+        </div>
+        <import file="js/messageBoard" />
+    </div>
+</block>
+</body>
+</html>

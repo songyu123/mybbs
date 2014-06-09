@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<extend name="layout/layout" />
+<html>
+<head>
+    <block name='title'><title>用户中心</title></block>
+</head>
+<body>
+<block name="main">
+    <div class="caoZuo">
+        <div class="userDiv" style="position: relative">
+        <div class="huiYuanDatum"><span style="margin-left: 350px;cursor: pointer;font-size: 20px;color: white">会员用户资料修改</span></div>
+        <!--注册表单-->
+        <form action="{:U('User/update')}" method="post" name="fromDatum" enctype="multipart/form-data">
+        <table id="userDatum">
+            <volist name="user" id="vo">
+            <tr><td align='right'class="td">用户名:</td><td class="tds" colspan="3"><input disabled="false"  type="text"  value="{$vo.uname}"/></td></tr>
+            <tr><td align='right'class="td">昵 称:</td><td class="tds"  colspan="3"><input name="sname" id="userDatumSname" type="text" value="{$vo.sname}"/></td></td></tr>
+            <tr><td align='right'class="td">密 码:</td><td class="tds"  colspan="3"><input name="upwd" type="password" value="{$vo.upwd}" id="userDatumPwd"/></td></td></tr>
+            <tr><td align='right'class="td">Email:</td><td class="tds"  colspan="3"><input name="uemail" type="text" id="userDatumEmail" value="{$vo.uemail}"/></td></tr>
+            <tr><td align='right'class="td">电 话:</td><td class="tds"  colspan="3"><input name="uphone" type="text" id="userDatumPhone" value="{$vo.uphone}"/></td></tr>
+            <tr><td align='right'class="td">QQ:</td><td class="tds"  colspan="3"><input name="uqq" type="text" id="userDatumQQ" value="{$vo.uqq}"/></td></tr>
+            </volist>
+        </table>
+        <!--头像上传-->
+            <div class="userPic">
+                <div class="userPicTitle">头像上传</div>
+                <div id="userPicImgUp">
+                    <volist name="user" id="vo">
+                        <equal name="vo.upic" value="NULL">
+                        <img src="__UPLOAD__001.jpg" width="130" height="130">
+                        <else />
+                       <img src="__UPLOAD__{$vo.upic}" width="130" height="130"/>
+                        </equal>
+                    </volist>
+                </div>
+                <div class="imgList">
+                    <input class="picInput" type="file" name="userPic"/>
+                </div>
+            </div>
+            <input style="position: absolute;top: 400px;left: 450px" class="subs" type="submit"name="subDatum" value="确认修改" />
+        </form>
+    </div>
+    </div>
+</block>
+</body>
+</html>

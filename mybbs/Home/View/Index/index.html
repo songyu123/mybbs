@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<extend name="layout/layout" />
+<html>
+<head>
+   <block name='title'><title>星辰在线</title></block>
+</head>
+<body>
+<block name='main'>
+    <!--操作主体开始-->
+        <div class="caoZuo">  <div class="index">
+            <div class="huaTi">
+                <div class="indexLeft " >
+                    <h3>最新话题</h3>
+                    <div>
+                        <ul>
+                            <volist name="NewMess" id="new">
+                            <li style="border-bottom: 1px dashed #808080;width:270px;margin-left: -25px">
+                                <a href="{:U('Show/showManage')}?mbid={$new.mbid}">{$new.mbtitle}</a>----{$new.mbdate}</li>
+                                </volist>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="indexcontent ">
+                    <h3>最热话题</h3>
+                    <ul>
+                        <volist name="HostMess" id="host">
+                            <li style="border-bottom: 1px dashed #808080;width:270px;margin-left: -25px">
+                                <a href="{:U('Show/showManage')}?mbid={$host.mbid}">{$host.mbtitle}</a>----{$host.mbdate}</li>
+                        </volist>
+                    </ul>
+                </div>
+                <div class="indexright ">
+                    <h3>推荐话题</h3>
+                    <ul>
+                        <volist name="TuiMess" id="tui">
+                            <li style="border-bottom: 1px dashed #808080;width:270px;margin-left: -25px">
+                                <a href="{:U('Show/showManage')}?mbid={$tui.mbid}">{$tui.mbtitle}</a>----{$tui.mbdate}</li>
+                        </volist>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!--操作主体结束-->
+
+</block>
+</body>
+</html>

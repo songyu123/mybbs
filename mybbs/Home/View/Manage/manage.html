@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<extend name="layout/layout" />
+<html>
+<head>
+    <block name='title'><title>管理中心</title></block>
+</head>
+<body>
+<block name="main">
+    <div class="caoZuo"><div class="manageDiv">
+        <div class="leftManageDiv">
+            <ul>
+                <a id="manageUser" href="{:U('Manage/usermanage')}"><li>管理员中心</li></a>
+                <li>个人留言</li>
+                <a href="{:U('Manage/recycle')}"><li>留言回收站</li></a>
+            </ul>
+        </div>
+        <div class="userLunManage">
+            <p class="userLunM" style="background-color: #808080;color: white;font-weight: bold">个人留言管理中心</p>
+            <span class="userLunL">
+            <table class="table" cellspacing="0" cellpadding="0">
+                <tr><td style="display: none">留言编号</td><td style="width: 100px">留言主题</td><td>留言时间</td><td>用户IP</td><td>操作</td></tr>
+                <volist name="UserMess" id="mess">
+                <tr>
+                    <td>{$mess.mbtitle}</td>
+                    <td>{$mess.mbdate}</td>
+                    <td>{$mess.mbip}</td>
+                    <td>
+                        <span><a href="{:U('Manage/updateMessage')}?mbid={$mess.mbid}">删除留言</a></span>
+                    </td></tr>
+                </volist>
+            </table>
+            </span>
+        </div>
+    </div>
+        <script type="text/javascript">
+            window.onload=function(){
+                var type=document.getElementById('userTypes');
+                var  manage=document.getElementById('manageUser');
+                if(type.innerHTML =='a' || type.innerHTML == 'b'){
+                    manage.style.display='block';
+                }else{
+                    manage.style.display='none';
+                }
+            }
+        </script>
+    </div>
+</block>
+</body>
+</html>

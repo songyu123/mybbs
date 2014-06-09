@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<extend name="layout/layout" />
+<html>
+<head>
+    <block name='title'><title>用户权限管理</title></block>
+</head>
+<body>
+<block name="main">
+    <div class="caoZuo"><div class="quanTitle">用户权限设置</div>
+        <div class="quanxian">
+            <div style="width: 300px;float: left;margin-left: 150px;margin-top: 40px">
+               <volist name="UserQX" id="QX">
+                给:
+                   <equal name="QX.upic" value="NULL">
+                       <img src="__UPLOAD__001.gif" width="20" height="20">
+                       <else />
+                       <img src="__UPLOAD__{$QX.upic}" width="20" height="20">
+                   </equal>
+                   {$QX.sname}   </volist>
+                <form action="server/server.php" method="post" name="setRoleForm">
+
+                设置组:
+                    <volist name="UserQX" id="QX">
+                <input type="hidden" value="{$QX.uid}" name="uid"/>
+                    </volist>
+                <select id="type" name="rtype">
+                    <option value="a">管理员</option>
+                    <option value="b">版主</option>
+                </select>
+                请选择权限:
+                <select id="xuan" multiple="multiple" name="atype[]">
+                    <option  value="insert">添加</option>
+                    <option  value="update">修改</option>
+                    <option  value="delete">删除</option>
+                    <option  value="find">查找</option>
+                    <option  value="check">审核</option>
+                </select>
+                <br>
+                <input type="submit" name="setRole" value=" 确定" />
+            </form>
+            </div>
+                <import file="js.messageUser"/>
+        </div>
+    </div>
+</block>
+</body>
+</html>

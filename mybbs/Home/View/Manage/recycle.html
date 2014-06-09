@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<extend name="layout/layout" />
+<html>
+<head>
+    <block name='title'><title>留言回收站</title></block>
+</head>
+<body>
+<block name="main">
+    <div class="caoZuo">
+        <div class="manageDiv">
+            <div class="leftManageDiv">
+                <ul>
+                    <li>留言回收站</li>
+                    <a href="{:U('Manage/manage')}"><li>返回管理</li></a>
+                </ul>
+            </div>
+            <div class="userLunManage">
+                <p class="userLunM" style="background-color: #808080;color: white;font-weight: bold">个人留言回收站</p>
+            <span class="userLunL">
+            <table class="table" cellspacing="0" cellpadding="0">
+                <tr><td style="display: none">留言编号</td><td style="width: 100px">留言主题</td><td>留言时间</td><td>用户IP</td><td>操作</td></tr>
+                <volist name="RecMess" id="ress">
+                    <tr>
+                        <td>{$ress.mbtitle}</td>
+                        <td>{$ress.mbdate}</td>
+                        <td>{$ress.mbip}</td>
+                        <td>
+                            <a href="{:U('Manage/delMessage')}?mbid={$ress.mbid}">
+                            <span>删除留言</span>
+                            </a>
+                            /
+                            <a href="{:U('Manage/huifuMessage')}?mbid={$ress.mbid}">
+                                <span >恢复</span></a>
+                        </td></tr>
+                </volist>
+            </table>
+            </span>
+            </div>
+        </div>
+    </div>
+</block>
+</body>
+</html>

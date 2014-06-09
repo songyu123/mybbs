@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<extend name="layout/layout" />
+<html>
+<head>
+    <block name='title'>
+        <title>
+        <volist name="MessData" id="Messdata">
+            {$Messdata.sname}的留言({$Messdata.mbtitle})
+            </volist>
+    </title></block>
+</head>
+<body>
+  <block name="main">
+      <div class="caoZuo"><div class="content">
+          <span id="pags" style="display: none">0</span>
+          <div class="userMessage">
+              <table border="1" style="position: relative; left:75px;">
+                  <tr><td class="td">用户头像</td><td class="td">用户昵称</td><td class="td">发布时间</td><td class="td">用户IP</td></tr>
+                  <volist name="MessData" id="Messdata">
+                  <tr>
+                      <td rowspan="3" width="200" height="200">
+                          <equal name="Messdata.upic" value="NULL">
+                              <img src="__UPLOAD__001.gif" width="200" height="200">
+                              <else />
+                              <img src="__UPLOAD__{$Messdata.upic}" width="200" height="200">
+                          </equal>
+                      </td>
+                      <td width="150" height="20" class="td">{$Messdata.sname}</td>
+                      <td width="200" class="td">
+                         {$Messdata.mbdate}          </td><td width="150" class="td">  {$Messdata.mbip}  </td>
+                  </tr>
+                  <tr>
+                      <td colspan="3" height="40px">
+                          帖子主题: {$Messdata.mbtitle}           </td></td>
+                  </tr>
+                  <tr>
+                      <td colspan="3">
+                          内容:  <span style="color:#E53333;">{$Messdata.mbcontent}</span><span style="color:#E56600;"></span>                </td></td>
+                  </tr>
+                  </volist>
+              </table>
+          </div>
+          <!--显示回复内容 并分页--->
+          <div class="showMessage">
+              <ul>
+                  <li>
+                      <volist name="showHui" id="showhui">
+                          <equal name="showhui.upic" value="NULL">
+                              <img src="__UPLOAD__001.gif" width="20" height="20">
+                              <else />
+                              <img src="__UPLOAD__{$showhui.upic}" width="20" height="20">
+                          </equal>
+                            {$showhui.sname}
+                      回复
+                      <volist name="ShowData" id="showdata">
+                          <equal name="showdata.upic" value="NULL">
+                      <img src="__UPLOAD__001.gif" width="20" height="20">
+                              <else />
+                        <img src="__UPLOAD__{$showdata.upic}" width="20" height="20">
+                              </equal>
+                      {$showdata.sname}
+                      </volist>
+                      :&nbsp;&nbsp;
+                          {$showhui.hcontent}&nbsp;&nbsp;&nbsp;&nbsp;{$showhui.htime}</br>
+                      </volist>
+                  </li>
+              </ul>
+              </volist>
+              <notempty name='page'>
+                <div id="filePag">第 <span>{$page}</span> 页</div>
+              </notempty>
+          </div>
+          <!-- 回复-->
+          <form action="{:U('Show/addHFMessage')}" method="post" name="userMsgForm" >
+              <div class="userHui">
+                  回复主题:<br/>
+                  <textarea style="width:280px;height: 55px;" name="userText" onclick="yanzhen();"></textarea>
+                  <input type="submit" name="userTexts" value="回复"/>
+              </div>
+          </form>
+          <div id="zhe"></div>
+      </div>
+          <import file="js/pagMain" />
+      </div>
+  </block>
+</body>
+</html>

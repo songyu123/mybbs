@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<extend name="layout/layout" />
+<html>
+<head>
+    <block name='title'><title>用户管理</title></block>
+</head>
+<body>
+<block name="main">
+    <div class="caoZuo"><div class="manageDiv">
+        <div class="leftManageDiv">
+            <ul>
+                <li onclick="huanyingyong(0);">留言管理</li>
+                <li onclick="huanyingyong(1),message('{$Think.session.rtype}');">用户管理</li>
+                <a href="{:U('Manage/manage')}"><li>回管理中心</li></a>
+            </ul>
+        </div>
+        <div id="manage">
+            <div class="lunManage">
+                <p class="lunM" style="background-color: #808080;color: white;font-weight: bold">留言管理中心</p>
+            <span class="lunL">
+            <table class="table" cellspacing="0" cellpadding="0">
+                <tr><td style="display: none">留言编号</td><td>用户头像</td><td>用户昵称</td><td style="width: 100px">留言主题</td><td>留言时间</td><td>用户IP</td><td>操作</td></tr>
+                <volist name="ShowMessData" id="showMess">
+                <tr>
+                    <td style="display: none">24</td>
+                    <td style="padding: 0px;width: 60px">
+                        <equal name="showMess.upic" value="NULL">
+                            <img src="__UPLOAD__001.gif" width="40" height="30" />
+                            <else />
+                            <img src="__UPLOAD__{$showMess.upic}" width="40" height="30">
+                        </equal>
+                    </td>
+                    <td>{$showMess.sname}</td>
+                    <td>{$showMess.mbtitle}</td>
+                    <td>{$showMess.mbdate}</td>
+                    <td>{$showMess.mbip}</td>
+                    <td>
+                        <a href="{:U('Manage/UserMessageDel')}?mbid={$showMess.mbid}"><span>删除话题</span></a>
+                        /
+                        <a href="{:U('Manage/TuiJianMessage')}?mbid={$showMess.mbid}"><span>设为推荐</span></a>
+                    </td></tr>
+                </volist>
+            </table>
+            </span>
+            </div>
+            <div class="userManage">
+                <p class="userM"  style="background-color: #808080;color: white">用户管理中心</p>
+            <span class="userL">
+            <table class="table" cellspacing="0" cellpadding="0">
+                <tr><td>用户名</td><td>用户头像</td><td style="width: 100px">用户昵称</td><td>用户Email</td><td>用户手机</td><td>用户QQ</td><td>操作</td></tr>
+                <volist name="userManage" id="user">
+                    <tr><td>{$user.uname}</td>
+                        <td style="padding: 0px;width: 60px">
+                            <equal name="user.upic" value="NULL">
+                                <img src="__UPLOAD__001.gif" width="40" height="30" />
+                                <else />
+                                <img src="__UPLOAD__{$user.upic}" width="40" height="30">
+                            </equal>
+                        </td>
+                        <td>{$user.sname}</td>
+                        <td>{$user.uemail}</td>
+                        <td>{$user.uphone}</td>
+                        <td>{$user.uqq}</td>
+                        <td>
+                            <span class="quanXian"><a href="{:U('Manage/setrole')}?uid={$user.uid}">权限管理</a></span>
+                        </td></tr>
+                </volist>
+            </table>
+            </span>
+            </div>
+        </div>
+    </div>
+        <import file="js/manage" />
+    </div>
+</block>
+</body>
+</html>
